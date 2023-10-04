@@ -14,7 +14,7 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
   // simulate random overheating of the launcher bay which prevents firing
-  private Random generator = new Random();
+  private Random generator = new Random();//áthelyezve
   public TorpedoStore(int numberOfTorpedos){
     this.torpedoCount = numberOfTorpedos;
 
